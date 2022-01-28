@@ -1,0 +1,75 @@
+body {
+    background-color: #efefef;
+}
+
+.wrap {
+    padding: 100px 0;
+    width: 100%;
+    min-width: 20em;
+}
+.background {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 1.5em;
+    width: 50%;
+    height: auto;
+    border: 0.5em solid #efefef;
+    border-radius: 0.8em;
+    -webkit-box-shadow: 0 1em 0.5em #555;
+    -moz-box-shadow: 0 1em 0.5em #555;
+    box-shadow: 0 0.3em 0.5em #8d8a8a;
+}
+#textArea {
+    font-family: sans-serif, monospace;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+}
+.my-font {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section {
+    color: #051822;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1em;
+    background-color: rgba(31, 230, 107, 0.3);
+    width: 100%;
+    padding: 0.8em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0.1em solid #000;
+    text-indent: 1.5em;
+}
+.section:focus {
+    border: 0.1em solid #f7f4f4;
+}
+.btn {
+    margin-left: 25%;
+
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+    padding: 1em;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    background-color: #27ae60;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 400;
+    border: none;
+    min-width: 10em;
+}
+.btn:focus,
+.btn:hover {
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+}

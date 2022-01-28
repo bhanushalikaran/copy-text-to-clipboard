@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Copy To Clipboard | The CreatorSpace</title>
+        <link rel="shortcut icon" href="images/favicon.png" />
+        <script src="https://use.fontawesome.com/07020a472b.js"></script>
+        <script src="js/script.js"></script>
+        <link href="css/my-css.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="background">
+                <form>
+                    <h1>Copy To Clipboard</h1>
+
+                    <p>
+                        <textarea class=" section" id="textArea" cols="50" placeholder="Enter Text Here!" rows="3"></textarea>
+                    </p>
+
+                    <div class="btn section" onclick="copyTxt()" style="cursor: pointer;">
+                        <a class="my-font">Copy To Clipboard&nbsp;<i class="fa fa-clipboard" aria-hidden="true"></i></a>
+                    </div>
+
+                    <p>
+                        <textarea class="section" placeholder="CTRL+V here..." id="textArea" cols="50" rows="3"></textarea>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
